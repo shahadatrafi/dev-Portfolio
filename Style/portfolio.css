@@ -93,18 +93,13 @@ nav ul li {
     font-weight: 700;
     margin-left: 30px;
 }
-/* .banner-text{
-    margin-right: 250px;
-} */
+
 
 /* .banner-img {
     clear: right;
     float: right;
 } */
-/* .banner-img img{
-    display: flex
-     float: right;
-} */
+
 
 .about {
     margin-top: 130px;
@@ -149,14 +144,15 @@ nav ul li {
     color: #474747;
     font-weight: 600;
 }
-
+/* gdsdg */
 /* Work Section Style */
 .work {
     margin-top: 130px;
-    
+
     border-radius: 10px;
 }
-.work-description{
+
+.work-description {
     padding: 0 155px;
 
 }
@@ -223,31 +219,40 @@ nav ul li {
     border-bottom: 1px solid #D1D1D1;
     padding: 0 10px 30px 0;
 }
-.resume-btn{
+
+.resume-btn {
     margin: 50px 0px 115px 0px;
     text-align: center;
 
 }
-.border-none{
+
+.border-none {
     border: none;
 }
-.contact{
+
+.contact {
     display: flex;
     gap: 117px;
     padding: 130px 0px;
     background: #FFF8F3;
 
 }
-.contact-bg{
+
+.contact-bg {
     margin: 0 auto;
 }
-.contact .section-title{
+
+.contact .section-title {
     text-align: left;
 }
-.contact img{
+
+.contact img {
     margin-right: 24px;
 }
-input[type="text"], [type="email"], textarea{
+
+input[type="text"],
+[type="email"],
+textarea {
     height: 64;
     padding: 18px 0 18px 30px;
     width: 100%;
@@ -257,6 +262,7 @@ input[type="text"], [type="email"], textarea{
     font-size: 16px;
 
 }
-textarea{
+
+textarea {
     height: 118px;
 }
