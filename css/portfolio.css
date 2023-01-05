@@ -56,9 +56,10 @@ nav ul li {
 /* Hader banner style */
 .header-banner {
     padding-top: 160px;
-    margin: 0px 226px;
+    margin: 0px 100px 0px 226px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 .banner-sub-title {
@@ -95,10 +96,9 @@ nav ul li {
 }
 
 
-/* .banner-img {
-    clear: right;
-    float: right;
-} */
+.banner-img {
+    padding-left: 250px;
+}
 
 
 .about {
