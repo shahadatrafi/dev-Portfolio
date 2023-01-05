@@ -12,8 +12,9 @@
     border-radius: 5px;
     color: #fff;
     padding: 18px 35px;
-    border: none;
+    /* border: none; */
     font-weight: 700;
+    border: solid 1px #FD6E0A;
 }
 
 main {
@@ -25,7 +26,7 @@ main {
 nav {
     display: flex;
     justify-content: space-between;
-    margin: 50px 226px;
+    padding: 50px 226px;
 
 }
 
@@ -54,6 +55,7 @@ nav ul li {
 
 /* Hader banner style */
 .header-banner {
+    padding-top: 160px;
     margin: 0px 226px;
     display: flex;
     align-items: center;
@@ -84,12 +86,25 @@ nav ul li {
 .btn-contact {
     background: #fff;
     border: solid 1px #FD6E0A;
-    padding: 18px 25px;
+    padding: 18px 35px;
     border-radius: 5px;
     color: #FD6E0A;
-    font-size: 18px;
+    font-size: 14px;
     font-weight: 700;
+    margin-left: 30px;
 }
+/* .banner-text{
+    margin-right: 250px;
+} */
+
+/* .banner-img {
+    clear: right;
+    float: right;
+} */
+/* .banner-img img{
+    display: flex
+     float: right;
+} */
 
 .about {
     margin-top: 130px;
@@ -138,13 +153,18 @@ nav ul li {
 /* Work Section Style */
 .work {
     margin-top: 130px;
-    padding: 0px 155px;
+    
     border-radius: 10px;
+}
+.work-description{
+    padding: 0 155px;
+
 }
 
 .skills {
     display: flex;
     gap: 24px;
+    margin-bottom: 130px;
 }
 
 .skill {
@@ -152,8 +172,8 @@ nav ul li {
     box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
     border-radius: 5px;
     padding: 30px;
-    width: 267px;
-    
+    width: 260px;
+
 }
 
 .skill-title {
@@ -165,4 +185,78 @@ nav ul li {
 .skill-description {
     color: #757575;
 
+}
+
+/* Resume Section Style */
+.resume {
+    display: flex;
+    margin-top: 80px;
+    gap: 70px;
+}
+
+.degree h2 {
+    color: #474747;
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: ;
+}
+
+.degree-title {
+    font-weight: 700;
+    font-size: 25px;
+    color: #474747;
+    margin-top: 30px;
+
+}
+
+.degree-sub-title {
+    font-weight: 600;
+    font-size: 20px;
+    color: #757575;
+    margin: 10px 0 20px;
+
+}
+
+.degree-description {
+    color: #757575;
+    /* text-align: justify; */
+    border-bottom: 1px solid #D1D1D1;
+    padding: 0 10px 30px 0;
+}
+.resume-btn{
+    margin: 50px 0px 115px 0px;
+    text-align: center;
+
+}
+.border-none{
+    border: none;
+}
+.contact{
+    display: flex;
+    gap: 117px;
+    padding: 130px 0px;
+    background: #FFF8F3;
+
+}
+.contact-bg{
+    margin: 0 auto;
+}
+.contact .section-title{
+    text-align: left;
+}
+.contact img{
+    margin-right: 24px;
+}
+input[type="text"], [type="email"], textarea{
+    height: 64;
+    padding: 18px 0 18px 30px;
+    width: 100%;
+    border: none;
+    margin-bottom: 25px;
+    color: #757575;
+    font-size: 16px;
+
+}
+textarea{
+    height: 118px;
 }
